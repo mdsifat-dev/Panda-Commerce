@@ -1,0 +1,56 @@
+/* Shared styles starts here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 50px auto;
+}
+
+.font {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Shared styles ends here */
+
+/* Navbar styles  starts here  */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-parent {
+  position: relative;
+  color: #bababa;
+}
+
+.search-parent input {
+  background-color: #f1f1f1;
+  border-radius: 66px;
+  width: 500px;
+  padding: 12px;
+  border: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 15px;
+  top: 8px;
+}
+
+.nav-items {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #707070;
+  font-weight: 600;
+}
+
+/* Navbar styles ends here  */
