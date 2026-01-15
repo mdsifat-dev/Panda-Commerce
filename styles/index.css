@@ -262,3 +262,71 @@ nav img {
 .item-card button {
   background: rgba(0, 0, 0, 1);
 }
+
+/* Footer style  */
+
+footer {
+  background: rgba(255, 242, 241, 1);
+  border-radius: 16px;
+  align-items: center;
+  text-align: center;
+  padding: 150px 0;
+}
+
+footer h2 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+footer p {
+  color: #707070;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.subscribe-form {
+  align-items: center;
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.subscribe-form input {
+  flex-grow: 1;
+  padding: 15px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.subscribe-form input::placeholder {
+  color: #aaa;
+}
+
+.subscribe-form button {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 88, 155, 1),
+    rgba(255, 19, 111, 1) 100%
+  );
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.subscribe-form button:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 19, 111, 1) 100%,
+    rgba(255, 88, 155, 1)
+  );
+}
