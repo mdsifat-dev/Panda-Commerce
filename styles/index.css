@@ -28,6 +28,7 @@
   cursor: pointer;
   font-weight: 700;
   font-size: 1.25em;
+  transition: all 0.3s ease;
 }
 
 .panda-btn:hover {
@@ -125,20 +126,28 @@ nav img {
   display: flex;
   justify-content: space-between;
   margin: 25px 0;
+  gap: 30px;
+}
+
+.categories h2 {
+  font-size: 2.25em;
+  font-weight: 600;
 }
 
 .watch-card,
 .bag-card,
 .shoes-card {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  gap: 120px;
+
   padding: 15px 45px;
   border-radius: 8px;
   color: white;
   font-weight: 700;
   font-size: 1.25em;
+  flex: 1;
+  transition: all 0.3s ease;
 }
 
 .shoes-card:hover,
@@ -148,11 +157,6 @@ nav img {
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   transform: scale(1.05) rotate(0deg) translate(0px, -5px) skewX(0deg);
   transition: all 0.3s ease;
-}
-
-.category-card-img {
-  height: 100px;
-  width: 100%;
 }
 
 .watch-card {
@@ -177,4 +181,84 @@ nav img {
     rgba(66, 137, 255, 1),
     rgba(63, 7, 248, 1) 100%
   );
+}
+
+/* item container styles  */
+.item-container {
+  background-color: #f4f4f4;
+  margin-top: 20px;
+}
+
+.item-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.item-list p {
+  color: #ff9f00;
+  font-size: 1.25em;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.item-list h2 {
+  font-size: 2.25em;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.item-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex: 1;
+  padding-bottom: 80px;
+}
+
+.item-card {
+  width: 410px;
+  height: 544px;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding: 24px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.item-card:hover {
+  box-shadow: 2px 0px 8px 0px rgb(0 0 0 / 15%);
+  transition: all 0.3s ease;
+  transform: scale(1.05) rotate(0deg) translate(0px, -5px) skewX(0deg);
+}
+
+.item-card img {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 22px;
+  display: block;
+}
+
+.watch-image {
+  width: 100%;
+  height: 200px;
+}
+
+.item-card p {
+  color: #4e4e4e;
+  margin-bottom: 16px;
+}
+
+.item-price {
+  display: block;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.item-card button {
+  background: rgba(0, 0, 0, 1);
 }
